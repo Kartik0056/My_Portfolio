@@ -1,4 +1,3 @@
-"use client"
 
 import { useState, useEffect } from "react"
 import { useTheme } from "./ThemeProvider"
@@ -41,7 +40,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-bold text-gradient">
-          Kartik<span className="text-primary">.dev</span>
+          Kartik<span className="text-primary">Kumar</span>
         </a>
 
         {/* Desktop Navigation */}
