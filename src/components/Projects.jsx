@@ -2,6 +2,7 @@
 import { useRef, useEffect } from "react"
 
 const ProjectCard = ({ title, description, image, tags }) => {
+
   return (
     <div className="card-hover bg-card rounded-lg overflow-hidden shadow-md">
       <div className="aspect-video bg-muted overflow-hidden">
@@ -100,21 +101,21 @@ const Projects = () => {
       title: "Symptom Checker",
       description:
         "A medical diagnostic tool that allows doctors to add symptoms and questions to gather patient information for accurate diagnosis.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: '/assets/Symptom.png',
       tags: ["Vue.js", "Vuex", "Node.js", "MySQL"],
     },
     {
       title: "E-commerce Platform",
       description:
         "A fully functional e-commerce platform with vendor management, product categorization, cart management, and QR code scanning.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: '/assets/ecommerce.png',
       tags: ["React.js", "Redux", "Node.js", "MongoDB"],
     },
     {
       title: "Health Assessment Questionnaire",
       description:
         "Custom questionnaires for health assessments, streamlining data collection for patient evaluations.",
-      image: "/placeholder.svg?height=300&width=600",
+      image: '/assets/Questionnaire.png',
       tags: ["Vue.js", "Node.js", "MySQL", "Socket.io"],
     },
   ]

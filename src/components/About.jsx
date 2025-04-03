@@ -3,7 +3,7 @@ import { useRef, useEffect } from "react"
 
 const About = () => {
   const sectionRef = useRef(null)
-  const Myphoto = "../public/assets/myphoto.jpeg"
+  const Myphoto = "/assets/myphoto.jpeg"
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
